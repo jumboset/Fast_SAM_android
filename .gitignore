@@ -5,3 +5,4 @@
 /app/build/intermediates/javac/debugAndroidTest/classes/
 .idea
 app/.cxx
+.kotlin
