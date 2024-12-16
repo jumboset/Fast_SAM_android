@@ -356,8 +356,10 @@ object Utils {
         // Perform Non-Maximum Suppression (NMS)
         val pred = nonMaxSuppression(
             preds0,
-            confThres = 0.4f,
-            iouThres = 0.9f,
+//            confThres = 0.4f,
+//            iouThres = 0.9f,
+            confThres = 0.85f,
+            iouThres = 0.7f,
             agnostic = false,
             maxDetections = 32,
             nc = 1,
@@ -387,6 +389,15 @@ object Utils {
             bboxes = sliceBoxes,
             shape = Pair(MODEL_INPUTS_SIZE, MODEL_INPUTS_SIZE)
         )
+
+//        Log.d("utils_", "masks: $masks")
+//        masks.forEachIndexed { i, mask ->
+//            mask.forEachIndexed { j, row ->
+//                row.forEachIndexed { k, value ->
+//                    Log.d("utils_", "masks[$i][$j][$k]: $value")
+//                }
+//            }
+//        }
 
         return masks
     }

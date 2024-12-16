@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "/home/dell/AndroidStudioProjects/Fast_SAM_android/app/build/intermediates/cxx/Debug/27m5c2gu/obj/x86/libimagesegmentation.so"
+			"path" : "/Users/tritipt/Desktop/itddgit/Fast_SAM_android/app/build/intermediates/cxx/Debug/27m5c2gu/obj/x86/libimagesegmentation.so"
 		}
 	],
 	"backtrace" : 1,
@@ -58,7 +58,7 @@
 			],
 			"sysroot" : 
 			{
-				"path" : "/home/dell/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+				"path" : "/Users/tritipt/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot"
 			}
 		}
 	],
@@ -89,7 +89,7 @@
 		"language" : "CXX",
 		"sysroot" : 
 		{
-			"path" : "/home/dell/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+			"path" : "/Users/tritipt/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot"
 		}
 	},
 	"name" : "imagesegmentation",

@@ -1,9 +1,9 @@
-set(CMAKE_HOST_SYSTEM "Linux-6.8.0-44-generic")
-set(CMAKE_HOST_SYSTEM_NAME "Linux")
-set(CMAKE_HOST_SYSTEM_VERSION "6.8.0-44-generic")
+set(CMAKE_HOST_SYSTEM "Darwin-24.2.0")
+set(CMAKE_HOST_SYSTEM_NAME "Darwin")
+set(CMAKE_HOST_SYSTEM_VERSION "24.2.0")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")
 
-include("/home/dell/Android/Sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake")
+include("/Users/tritipt/Library/Android/sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake")
 
 set(CMAKE_SYSTEM "Android-1")
 set(CMAKE_SYSTEM_NAME "Android")
